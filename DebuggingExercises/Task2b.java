@@ -7,7 +7,6 @@ public class Task2b {
         double mile = 1.150779;
         float naut = 10;
 
-//        String naut = JOptionPane.showInputDialog("How many nautical miles?");
         JOptionPane.showMessageDialog(null,"Distance in km: " + (naut*km) + "\nDistance in miles:" +
                  (mile*naut));
     }
